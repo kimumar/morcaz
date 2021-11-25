@@ -1,0 +1,136 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block header %}
+<div id="home" class="banner inner-banner-w3l">
+	<div class="header-nav">
+		<nav class="navbar navbar-default">
+		<div class="header-top">
+				<div class="navbar-header logo">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<h1>
+								<a class="navbar-brand" href="{% url 'index' %}"><i class="fa fa-graduation-cap" aria-hidden="true"></i>Walkway </a>
+							</h1>
+				</div>
+				<!-- navbar-header -->
+				<div class="contact-bnr-w3-agile">
+							<ul>
+								<li><i class="fa fa-envelope-o" aria-hidden="true"></i><a href="mailto:walkwaycollege1@gmail.com">walkwaycollege1@gmail.com</a></li>
+                                <li><i class="fa fa-phone" aria-hidden="true"></i>08035903553</li>	
+							</ul>
+						</div>
+						</div>
+				<div class="collapse navbar-collapse cl-effect-13" id="bs-example-navbar-collapse-1">
+
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="{% url 'index' %}">Home</a></li>
+						<li><a href="{% url 'about' %}">About</a></li>
+						<li><a href="{% url 'services' %}">Services</a></li>
+						<li><a href="{% url 'gallery' %}">Gallery</a></li>
+						<li><a href="{% url 'contact' %}" class="active">Contact</a></li>
+					</ul>
+
+				</div>
+				<div class="clearfix"> </div>	
+			</nav>
+						<div class="clearfix"> </div>
+	</div>
+</div>	
+<!-- //Header --> 
+{% endblock header %}
+	
+{% block content %}
+<!-- about inner -->
+<div class="about-bottom inner-padding">
+	<div class="container">
+	<h3 class="heading-agileinfo">About Us<span>Experience a good Education</span></h3>
+				<div class="about-bott-right">
+					 <h5>Who We Are</h5>
+					 <p>Masagni dolores eoquie int Basmodi temporant, ut laboreas dolore magnam aliquam kuytase uaeraquis autem vel eum iure reprehend.Unicmquam eius, Basmodi temurer sehsMunim.Masagni dolores eoquie int Basmodi temporant, ut laboreas dolore magnam aliquam kuytase uaeraquis autem vel eum iure reprehend.</p>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+</div>
+<div class="about-agile inner-padding">
+	<div class="container">
+		<h3 class="heading-agileinfo white-w3ls">Play, explore and learn.<span class="yellow-w3ls">Experience a good Education</span></h3>
+		<p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia .</p>
+			<div class="more-button">
+				<a href="{% url 'contact' %}">Mail Us</a>
+			</div>
+	</div>
+</div>
+<!-- Mail Us inner -->
+<div class="contact-page-w3ls inner-padding">
+	<div class="container">
+	<h3 class="heading-agileinfo">Mail Us<span>Cras eleifend hendrerit libero</span></h3>
+	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1246.3147693109654!2d3.228520750915357!3d6.592633189362957!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9ae61b75997b%3A0x96648145ae060c58!2sAlh.%20Bashiru%20Adigun%20St%2C%20Idimu%20102213%2C%20Lagos!5e1!3m2!1sen!2sng!4v1634341270066!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+<div class="contact-info-w3ls">
+	<div class="contact-left-w3layouts">
+			<div class="contact-w3-agileits">
+				<img src="{% static '' %}images/c1.jpg" alt="img">
+				<div class="right-contact-w3ls">
+					<h6>Daniel</h6>
+					<p class="work-w3">Director</p>
+					<div class="span-sub-w3ls">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><p class="number-w3">+01 243 792 96</p>
+					</div>
+					<div class="span-sub-w3ls">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">example@mail.com</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="contact-w3-agileits">
+				<img src="{% static '' %}images/c2.jpg" alt="img">
+				<div class="right-contact-w3ls">
+					<h6>Smith Carl</h6>
+					<p class="work-w3">Principal</p>
+					<div class="span-sub-w3ls">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><p class="number-w3">+01 543 338 96</p>
+					</div>
+					<div class="span-sub-w3ls">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">example@mail.com</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+			<div class="contact-w3-agileits">
+				<img src="{% static '' %}images/c3.jpg" alt="img">
+				<div class="right-contact-w3ls">
+					<h6>James Mac</h6>
+					<p class="work-w3">Teacher</p>
+					<div class="span-sub-w3ls">
+						<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span><p class="number-w3">+01 543 338 96</p>
+					</div>
+					<div class="span-sub-w3ls">
+						<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span><a href="mailto:info@example.com">example@mail.com</a>
+					</div>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+	</div>
+	<div class="contact-right-w3layouts">
+	<h5 class="title-w3">We Would Love To Hear From You!</h5>
+	<p class="head-w3-agileits">If you have any questions, please call us or fill in the form below and we will get back to you very soon.</p>
+		<form action="#" method="post">
+			<input type="text" name="your name" placeholder="YOUR NAME" required="">
+			<input type="email" name="your email" placeholder="YOUR EMAIL" required="">
+			<textarea name="your message" placeholder="YOUR MESSAGE" required=""></textarea>
+			<input type="submit" value="Send Message">
+		</form>
+	</div>
+	<div class="clearfix"> </div>
+	</div>
+	</div>
+</div>
+{% endblock content %}
+	
+{% block footer %} {% include 'footer.html' %} {% endblock footer %}
+	
